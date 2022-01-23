@@ -5,7 +5,7 @@ import (
 	"reflect"
 )
 
-func main() {
+func learning() {
 	/*----int----*/
 	var a int32 = 123
 	fmt.Printf("%s\n", "hello,world")
