@@ -5,7 +5,7 @@ import (
 	"reflect"
 )
 
-func main() {
+func learning() {
 	/*----int----*/
 	var a int32 = 123
 	fmt.Printf("%s\n", "hello,world")
@@ -48,5 +48,4 @@ func main() {
 	delete(rating, "C") // 删除key为C的元素
 	fmt.Printf("result:", string(Max(2, 1)))
 
-	// create new branch
 }
