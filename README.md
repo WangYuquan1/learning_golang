@@ -8,10 +8,12 @@ skaffold dev -f skaffold.yaml
 
 ## EXTERNAL-IP確認
 
-```kubectl get services
+```
+kubectl get services
 ```
 
 ## browerでアクセス
 
-```http://<EXTERNAL-IP>
+```
+http://<EXTERNAL-IP>
 ```
