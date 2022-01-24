@@ -1,6 +1,6 @@
 package main
 
 func main() {
-	learning()    // helloword.go
+	//learning()    // helloword.go
 	main_sample() // web.go
 }

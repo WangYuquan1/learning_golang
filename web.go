@@ -17,11 +17,11 @@ func sayhelloName(w http.ResponseWriter, r *http.Request) {
 		fmt.Println("key:", k)
 		fmt.Println("val:", strings.Join(v, ""))
 	}
-	fmt.Fprintf(w, "Hello astaxie!") // 这个写入到 w 的是输出到客户端的
+	fmt.Fprintf(w, "Hello astaxie!!") // 这个写入到 w 的是输出到客户端的
 }
 
 func main_sample() {
-	learning() //helloword.go
+	//learning() //helloword.go
 
 	http.HandleFunc("/", sayhelloName)       // 设置访问的路由
 	err := http.ListenAndServe(":9090", nil) // 设置监听的端口

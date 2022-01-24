@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: learning-go-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: learning-go
+  template:
+    metadata:
+      labels:
+        app: learning-go
+    spec:
+      containers:
+      - name: nginx
+        image: gerraywang/learning-go # 変更箇所 DOCKERHUB_REPO_NAME
