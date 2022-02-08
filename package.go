@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func init() {
-	fmt.Printf("%s\n", "package init")
+	fmt.Printf("%s\n", "package inited")
 }
 
 func Max(a, b int) int {
