@@ -1,11 +1,22 @@
-package main
+package hello
 
 import (
 	"fmt"
 	"reflect"
 )
 
-func learning() {
+func Sum(x int, y int) int {
+	return x + y
+}
+
+func Max(x int, y int) int {
+	if x > y {
+		return x
+	}
+	return y
+}
+
+func Learning() {
 	/*----int----*/
 	var a int32 = 123
 	fmt.Printf("%s\n", "hello,world")
